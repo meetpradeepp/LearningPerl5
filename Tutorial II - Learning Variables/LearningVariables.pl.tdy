@@ -1,0 +1,39 @@
+#!/usr/bin/perl
+package LearningVariables;
+use strict;
+use warnings;
+use Data::Dumper;
+
+# Scalar
+my $count = 2;
+my $name  = "YourName";
+
+# Array
+my @fruits = [ 'apple', 'grapes' ];
+my @students = [ 'Nick', 23, 'Ronny' ];
+
+# Hash
+my %fruit_count = ( 'apple' => 3, 'grapes' => 20 );
+
+# Reference
+my $fruits_ref = \@fruits;
+my $obj = { 'apple' => 3, 'grapes' => 20 };
+
+printf Dumper($obj);
+
+# Best practices
+#------------------------------
+#1. Use nouns as variable names
+#   Example:
+#      $route, $value
+#2. _ref suffix for variables storing references
+#   Example:
+#      $car_ref
+#3. Start the variable name with aplhabet or _
+#   Example:
+#       $student, $_state, $s1
+#4. DO NOT USE VARIABLES starting with number
+#   Example:    
+#       $1 - DO NOT USE AS PERSONAL VARIABLE
+
+1;
