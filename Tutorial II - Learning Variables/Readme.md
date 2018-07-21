@@ -27,6 +27,7 @@ could be used to store multiple types of values.
 We cannot complete this section without mentioning the way in which scalar variables
 could be used to store the references of other variables. The above mentioned hash could
 also be stored as:
+
  `my $obj = {'apple' => 3, 'guava' => 4};`
 
 Notice the braces. Those braces return the reference of the hash value which could be used further in the program.
