@@ -10,6 +10,14 @@ Variables are basically used to store values which are then further used during 
 to perform various actions upon. There are different types of values which are required to be
 stored during the execution of program. Some of them are single values and sometimes group.
 
+The line of code defining the variables would be looking something like shown in the picture below.
+The sections of the line are self explanatory.
+
+![alt text](PT_2_2.png)
+
+Scope of the variables is defined by `my` and `our` words. At this time you could say `my` is to make variable
+to be used locally whereas `our` makes it visible at the package level and would support inheritance.
+
 Perl 5 supports three types of variables. These types are not defined by restricted by data types but
 could be used to store multiple types of values.
 - Scalar :-  Single value of any data type(string, float, integer, boolean)
