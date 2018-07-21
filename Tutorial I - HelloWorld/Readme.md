@@ -1,4 +1,4 @@
-#Tutorial-I HelloWorld
+# Tutorial I - Hello World
 
 
 In this program we try to print "Hello World" using Perl5.
@@ -41,3 +41,7 @@ which are ignored. Single line of comments are preceeded by `#` and multiline ar
 printf 'In to the comments section';
 =cut
 ```
+
+Please make a habit to use two key useful features provided by perl. `perlcritic` evaluates your code to the standards defined by Perl Gurus and `perltidy` cleans and re-arranges your code to be much more readable.
+
+The code is available in this repo.
