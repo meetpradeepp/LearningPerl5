@@ -1,4 +1,4 @@
-#!c:\strawberry\perl
+#!/usr/bin/perl
 package main;
 use 5.26.0;
 use strict;
