@@ -1,5 +1,6 @@
 #Tutorial III - Scalar Variables
 
+
 In this tutorial lets learn how to use scalar variables. As you must be remembering the scalar
 variables is defined using `$` sigil and it can be used to store any type of singular values.
 
