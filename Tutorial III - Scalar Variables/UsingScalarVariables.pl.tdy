@@ -1,0 +1,58 @@
+#!c:\strawberry\perl
+package main;
+use 5.26.0;
+use strict;
+use warnings;
+
+# Am initialized but not defined
+my $scalar_variable;
+say 'Defined ?:' . defined $scalar_variable;
+
+# I don't have data but have address
+my $var_ref = \$scalar_variable;
+say 'Current Address: ' . $var_ref;
+
+# What type of reference you storing
+say 'Address has: ' . ref $var_ref;
+
+# Assigning a values
+$scalar_variable = 11;
+say 'Defined ?: ' . defined $scalar_variable;
+
+# Did my address changed after saving?
+say 'Current Address: ' . $var_ref;
+
+# Accessing the stored value in scalar
+# Type-I;
+# Most common way to access scalar
+say 'Type-I : $scalar_variable';
+say 'Value: ' . $scalar_variable;
+
+# Type-II
+# Shell type
+say 'Type-II : ${scalar_variable}';
+say 'Value: ' . ${scalar_variable};
+
+# Type-III
+# Using reference
+say 'Type-III : $${var_ref}';
+say 'Value: ' . $${var_ref};
+
+# Type-IV
+# Using reference
+say 'Type-IV : $$var_ref';
+say 'Value: ' . $$var_ref;
+
+# Can we only store integers?
+# No. Below is string
+$scalar_variable = 'Happy Learning';
+say 'Storing string value';
+say 'Value: ' . $$var_ref;
+
+# Can we only store integers?
+# No. Below is string
+$scalar_variable = 9.23;
+say 'Storing Float value';
+say 'Value: ' . $$var_ref;
+
+1;
