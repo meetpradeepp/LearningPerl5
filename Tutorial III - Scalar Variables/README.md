@@ -1,4 +1,5 @@
-#Tutorial III - Scalar Variables
+Tutorial III - Scalar Variables
+##
 
 
 In this tutorial lets learn how to use scalar variables. As you must be remembering the scalar
@@ -8,7 +9,8 @@ This tutorial also covers multiple ways available in perl to access the values. 
 available in Perl to access data. As we work with Arrays and Hashes in upcoming tutorials these basics would make more sense.
 
 Rule of thumb
-Single `$` sigil = value in the variable
-Double `$$` sigil = value at the value stored in the variable
 
-Please go through the program for various types you could access the value.
+- Single `$` sigil = value in the variable
+- Double `$$` sigil = address where the value in the variable is stored.
+
+Please go through the program to refer the various ways you could access the scalar.
