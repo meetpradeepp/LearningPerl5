@@ -49,8 +49,8 @@ $scalar_variable = 'Happy Learning';
 say 'Storing string value';
 say 'Value: ' . $$var_ref;
 
-# Can we only store integers?
-# No. Below is string
+# Can we store float values?
+# Sure. Why not?
 $scalar_variable = 9.23;
 say 'Storing Float value';
 say 'Value: ' . $$var_ref;
